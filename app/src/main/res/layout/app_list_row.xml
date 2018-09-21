@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_margin="12dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22sp"
+        android:autoSizeTextType="uniform"
+        android:paddingLeft="56dp"
+        android:autoSizeMinTextSize="22sp"
+        android:fontFamily="sans-serif"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeStepGranularity="2sp"
+        android:maxLines="1"/>
+
+</android.support.constraint.ConstraintLayout>

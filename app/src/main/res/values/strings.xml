@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Focus</string>
+    <string name="search">Search</string>
+    <string name="title_activity_tasks">TasksActivity</string>
+    <string name="tasks_title">Tasks</string>
+    <string name="back_button">\uf2ea</string>
+    <string name="completed_label">Completed</string>
+    <string name="incomplete_tick">\uf279</string>
+    <string name="complete_tick">\uf26a</string>
+</resources>
