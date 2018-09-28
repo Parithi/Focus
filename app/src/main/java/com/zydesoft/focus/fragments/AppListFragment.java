@@ -28,6 +28,7 @@ public class AppListFragment extends Fragment{
     AppListAdapter appListAdapter;
     private PackageManager manager;
     private ArrayList<AppDetail> appListArray = new ArrayList();
+    private TextView backButton;
 
     public static AppListFragment newInstance() {
         AppListFragment f = new AppListFragment();
@@ -56,6 +57,14 @@ public class AppListFragment extends Fragment{
         layoutManager = new LinearLayoutManager(getActivity());
         appsList.setLayoutManager(layoutManager);
         manager = getActivity().getPackageManager();
+
+        backButton = rootView.findViewById(R.id.back_button);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                getActivity().onBackPressed();
+            }
+        });
 
         Intent mainIntent = new Intent(Intent.ACTION_MAIN, null);
         mainIntent.addCategory(Intent.CATEGORY_LAUNCHER);

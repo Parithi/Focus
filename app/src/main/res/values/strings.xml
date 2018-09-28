@@ -7,4 +7,6 @@
     <string name="completed_label">Completed</string>
     <string name="incomplete_tick">\uf279</string>
     <string name="complete_tick">\uf26a</string>
+    <string name="shopping_list_title">Shopping List</string>
+    <string name="settings_title">Settings</string>
 </resources>

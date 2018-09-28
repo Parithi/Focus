@@ -49,7 +49,7 @@ public class ShoppingListActivity extends Activity {
             }
         });
 
-        shoppingList = findViewById(R.id.incomplete_tasks);
+        shoppingList = findViewById(R.id.shopping_list);
         shoppingList.setHasFixedSize(true);
         shoppingList.setItemViewCacheSize(20);
         shoppingList.setDrawingCacheEnabled(true);
